@@ -10,7 +10,7 @@ sudo apt install figlet -y
 #+END_SRC
 
 python dependencies
-    - Selenium
+    Selenium
     #+BEGIN_SRC bash
     pip install selenium
     #+END_SRC
@@ -18,7 +18,7 @@ python dependencies
     #+BEGIN_SRC bash
     pip install bs4
     #+END_SRC
-- Chromedriver (use sudo)
+    Chromedriver (use sudo)
     #+BEGIN_SRC bash
     sudo pip install chromedriver
     #+END_SRC
