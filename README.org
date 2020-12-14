@@ -14,15 +14,15 @@ python dependencies
     #+BEGIN_SRC bash
     pip install selenium
     #+END_SRC
-    - BeautifulSoup
+    BeautifulSoup
     #+BEGIN_SRC bash
     pip install bs4
     #+END_SRC
-    Chromedriver (use sudo)
+    Chromedriver
     #+BEGIN_SRC bash
     sudo pip install chromedriver
     #+END_SRC
-
+  
 ** DOWNLOAD CODE TO YOUR MACHINE
 Open your linux cmd line, navigate to home folder.. probably already there by default.
 Make sure you have git as well as the listed dependencies installed and copy and paste the following command
