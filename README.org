@@ -9,7 +9,8 @@ linux dependencies
 sudo apt install figlet -y
 #+END_SRC
 
-*** python dependencies
+
+*** Python dependencies:
     - Selenium
     #+BEGIN_SRC bash
     pip install selenium
