@@ -58,7 +58,7 @@ like to burn it to a disk and for you to provide the location of that disk, eg; 
 anytime I need to re-install my os, I run one command to grab the latest version and burn it to a flash dive
 so that it is ready to install. :)
     
- run script..
+ *** Run script..
 #+BEGIN_SRC bash
 python3 $HOME/scripts_for_matt/get_latest_arch/main.py
 #+END_SRC
@@ -74,7 +74,7 @@ that is is parsing tend to change several times a day. (not just the data in the
 For now there is if statements covering all of the scenarios but I would like to clean this up in the future... But hey,
 at leaset it works...
 
-run script..
+*** Run script..
 #+BEGIN_SRC bash
 python3 $HOME/scripts_for_matt/covid/main.py
 #+END_SRC
@@ -108,7 +108,7 @@ These scripts are super simple... I left comments in them to explain exactly wha
         chmod +x $HOME/scripts_for_matt/bash_scripts/sed.sh
         #+END_SRC
 
-        Run scripts..
+        *** Run scripts..
         #+begin_src bash
         $HOME/scripts_for_matt/bash_scripts/awk.sh
         $HOME/scripts_for_matt/bash_scripts/sed.sh
