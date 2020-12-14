@@ -9,16 +9,16 @@ linux dependencies
 sudo apt install figlet -y
 #+END_SRC
 
-python dependencies
-    Selenium
+*** python dependencies
+    - Selenium
     #+BEGIN_SRC bash
     pip install selenium
     #+END_SRC
-    BeautifulSoup
+    - BeautifulSoup
     #+BEGIN_SRC bash
     pip install bs4
     #+END_SRC
-    Chromedriver
+    - Chromedriver
     #+BEGIN_SRC bash
     sudo pip install chromedriver
     #+END_SRC
