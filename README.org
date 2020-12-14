@@ -74,11 +74,18 @@ python3 $HOME/scripts_for_matt/get_latest_arch/main.py
         #+END_SRC
 
         Run scripts..
-        #+BEGIN_SRC bash
-        cd $HOME
-        ./scripts_for_matt/bash_scripts/awk.sh
-        ./scripts_for_matt/bash_scripts/sed.sh
-        #+END_SRC
+        #+begin_src bash
+        $HOME/scripts_for_matt/bash_scripts/awk.sh
+        $HOME/scripts_for_matt/bash_scripts/sed.sh
+        #+end_src
+
+        or..
+
+        #+begin_src bash
+        cd $HOME/scripts_for_matt/bash_scripts
+        ./awk.sh
+        ./sed.sh
+        #+end_src
 
         
     
