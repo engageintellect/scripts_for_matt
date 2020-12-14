@@ -4,10 +4,10 @@
 linux dependencies
     - figlet     
 
-    install with your linux pkg manager, ei;
-    #+BEGIN_SRC bash
-    sudo apt install figlet -y
-    #+END_SRC
+*** install with your linux pkg manager, ei;
+#+BEGIN_SRC bash
+sudo apt install figlet -y
+#+END_SRC
 
 python dependencies
     - selenium
