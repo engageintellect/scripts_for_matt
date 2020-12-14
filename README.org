@@ -2,11 +2,13 @@
 
 ** DEPENDENCIES
 **** linux dependencies
+    - git     
     - figlet     
 
 **** install with your linux pkg manager:
 #+BEGIN_SRC bash
 sudo apt install figlet -y
+sudo apt install git -y
 #+END_SRC
 
 
@@ -25,8 +27,8 @@ sudo apt install figlet -y
     #+END_SRC
   
 ** DOWNLOAD CODE TO YOUR MACHINE
-Open your linux cmd line, navigate to home folder.. probably already there by default.
-Make sure you have git as well as the listed dependencies installed and copy and paste the following command
+Open your Linux cmd line, navigate to home folder.. you are probably already there by default.
+Make sure you have 'git' as well as the listed dependencies installed and copy and paste the following command
 
 #+BEGIN_SRC bash
 cd $HOME
@@ -34,9 +36,10 @@ git clone https://github.com/jc9361/scripts_for_matt.git
 #+END_SRC
     
 ** repo_maker
-This script uses python and selenium to open your browser (chrome) and 
-automates the process of loging in, clicking create repo, repo naming,
-and linking it to a local folder on your system.
+This script uses Python and Selenium to open your browser (Chrome) and 
+automates the process of logging in, clicking create repo, naming the repo,
+and linking it to a local folder on your system. This process is a pain in the ass to do manually,
+I use this script every single time I make a new GitHub repo so I don't have to leave the terminal.
     
     
 ** get_latest_arch 
@@ -44,7 +47,9 @@ and linking it to a local folder on your system.
 This script uses python and selenium to open yor Chrome and navigate to "https://archlinux.org".
 From there it will download the latest ISO torrent, open the torrent in your bittorrent client,
 "transmission-cli". When the torrent is finished downloading the script will ask you if you would
-like to burn it to a disk and for you to provide the location of that disk, ie; "/dev/sdd"
+like to burn it to a disk and for you to provide the location of that disk, ie; "/dev/sdd". So now,
+anytime I need to re-install my os, I run one command to grab the latest version and burn it to a flash dive
+so that it is ready to install. :)
     
  run script..
 #+BEGIN_SRC bash
@@ -57,6 +62,10 @@ python3 $HOME/scripts_for_matt/get_latest_arch/main.py
 
 This script uses pythong and BeautifulSoup to parse "https://worldometers.info" and display 
 current covid stats for the US and WORLD in a clean and easy to read format... right inside the terminal.
+This isnt the cleaning script... but its been working solidly for the last 6 months even though the data tables
+that is is parsing tend to change several times a day. (not just the data in them but the actual tables themselves).
+For now there is if statements covering all of the scenarios but I would like to clean this up in the future... But hey,
+at leaset it works...
 
 run script..
 #+BEGIN_SRC bash
@@ -67,6 +76,8 @@ python3 $HOME/scripts_for_matt/covid/main.py
 
 
 * BASH SCRIPTS
+
+These scripts are super simple... I left comments in them to explain exactly what they are doing...
 
 ** DEPENDENCIES
         - awk
