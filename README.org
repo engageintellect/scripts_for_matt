@@ -37,7 +37,7 @@ git clone https://github.com/jc9361/scripts_for_matt.git
 
 Change directory into downloaded repo.
 #+BEGIN_SRC bash
-cd $scripts_for_matt && ls -l
+cd scripts_for_matt && ls -l
 #+END_SRC
 
 
