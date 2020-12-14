@@ -1,9 +1,15 @@
 * PYTHON SCRIPTS
 
-** DEPENDENTCIES
+** DEPENDENCIES
 linux dependencies
-    - figlet (search for and install with your linux pkg manager.. example "sudo apt install figlet")
-    
+    - figlet     
+
+    install with your linux pkg manager, ei;
+    #+BEGIN_SRC bash
+    sudo apt install figlet
+    #+END_SRC
+
+
 python dependencies
     - selenium (pip install selenium)
     - chromedriver (sudo pip install chromedriver)
@@ -39,7 +45,7 @@ python3 /scripts_for_matt/get_latest_arch/main.py
 
 * BASH SCRIPTS
 
-** DEPENDENTCIES
+** DEPENDENCIES
         awk
         sed
     
