@@ -1,0 +1,65 @@
+# PYTHON SCRIPTS
+
+    # DEPENDENTCIES
+        
+        linux dependencies
+            - figlet (search for and install with your linux pkg manager.. example "sudo apt install figlet")
+    
+        python dependencies
+            - selenium (pip install selenium)
+            - chromedriver (sudo pip install chromedriver)
+    
+
+    # GRAB THE CODE OFF GITHUB
+    
+        go to linux cmd line, navigate to downloads folder (or wherever you like) 
+        make sure you have git, and dependencies installed and copy and paste the following commands..
+    
+            git clone https://github.com/jc9361/scripts_for_matt.git
+    
+    
+    # repo_maker
+    (run with "python3 /scripts_for_matt/repo_maker/main.py")
+    
+        This script uses python and selenium to open your browser (chrome) and 
+        automates the process of loging in, clicking create repo, repo naming,
+        and linking it to a local folder on your system.
+    
+    
+    
+    # get_latest_arch 
+    (run with "python3 /scripts_for_matt/get_latest_arch/main.py")
+    
+        This script uses python and selenium to open yor Chrome and navigate to "https://archlinux.org".
+        From there it will download the latest ISO torrent, open the torrent in your bittorrent client,
+        "transmission-cli". When the torrent is finished downloading the script will ask you if you would
+        like to burn it to a disk and for you to provide the location of that disk, ie; "/dev/sdd"
+    
+    
+    
+
+
+
+
+# BASH SCRIPTS
+
+    # DEPENDENTCIES
+        awk
+        sed
+    
+        You should already have both of these... you can check by entering "which awk" or "which sed"
+        in your bash terminal
+    
+        You may have to give these scripts permission to run "chmod +x <name or script>
+        runt script by using "bash <name of script>" or "./script_name.sh"
+    
+
+
+
+
+
+
+
+
+
+
