@@ -1,7 +1,7 @@
 * PYTHON SCRIPTS
 
 ** DEPENDENCIES
-linux dependencies
+**** linux dependencies
     - figlet     
 
 *** install with your linux pkg manager:
