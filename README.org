@@ -10,11 +10,15 @@ sudo apt install figlet -y
 #+END_SRC
 
 python dependencies
-    - selenium
+    - Selenium
     #+BEGIN_SRC bash
     pip install selenium
     #+END_SRC
-    - chromedriver (use sudo)
+    - BeautifulSoup (use sudo)
+    #+BEGIN_SRC bash
+    pip install bs4
+    #+END_SRC
+- Chromedriver (use sudo)
     #+BEGIN_SRC bash
     sudo pip install chromedriver
     #+END_SRC
@@ -101,15 +105,3 @@ python3 $HOME/scripts_for_matt/covid/main.py
         #+end_src
 
         
-    
-    
-
-
-
-
-
-
-
-
-
-
