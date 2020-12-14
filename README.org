@@ -6,15 +6,15 @@ linux dependencies
 
     install with your linux pkg manager, ei;
     #+BEGIN_SRC bash
-    sudo apt install figlet
+    sudo apt install figlet -y
     #+END_SRC
 
 python dependencies
-    - selenium (pip install selenium)
+    - selenium
     #+BEGIN_SRC bash
     pip install selenium
     #+END_SRC
-    - chromedriver (sudo pip install chromedriver)
+    - chromedriver (use sudo)
     #+BEGIN_SRC bash
     sudo pip install chromedriver
     #+END_SRC
