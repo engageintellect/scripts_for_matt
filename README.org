@@ -9,8 +9,8 @@ python dependencies
     - chromedriver (sudo pip install chromedriver)
 
 ** DOWNLOAD CODE TO YOUR MACHINE
-go to linux cmd line, navigate to downloads folder (or wherever you like) 
-make sure you have git, and dependencies installed and copy and paste the following commands..
+Open your linux cmd line, navigate to downloads folder (or wherever you like). 
+Make sure you have git as well as the listed dependencies installed and copy and paste the following command
 
 #+BEGIN_SRC bash
 git clone https://github.com/jc9361/scripts_for_matt.git
@@ -24,15 +24,17 @@ and linking it to a local folder on your system.
     
     
 ** get_latest_arch 
-(run with "python3 /scripts_for_matt/get_latest_arch/main.py")
-    
+
 This script uses python and selenium to open yor Chrome and navigate to "https://archlinux.org".
 From there it will download the latest ISO torrent, open the torrent in your bittorrent client,
 "transmission-cli". When the torrent is finished downloading the script will ask you if you would
 like to burn it to a disk and for you to provide the location of that disk, ie; "/dev/sdd"
     
-    
-    
+ run script..
+#+BEGIN_SRC bash
+python3 /scripts_for_matt/get_latest_arch/main.py
+#+END_SRC
+   
 
 
 * BASH SCRIPTS
