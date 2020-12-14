@@ -20,10 +20,11 @@ python dependencies
     #+END_SRC
 
 ** DOWNLOAD CODE TO YOUR MACHINE
-Open your linux cmd line, navigate to downloads folder (or wherever you like). 
+Open your linux cmd line, navigate to home folder.. probably already there by default.
 Make sure you have git as well as the listed dependencies installed and copy and paste the following command
 
 #+BEGIN_SRC bash
+cd $HOME
 git clone https://github.com/jc9361/scripts_for_matt.git
 #+END_SRC
     
@@ -43,7 +44,7 @@ like to burn it to a disk and for you to provide the location of that disk, ie; 
     
  run script..
 #+BEGIN_SRC bash
-python3 /scripts_for_matt/get_latest_arch/main.py
+python3 $HOME/scripts_for_matt/get_latest_arch/main.py
 #+END_SRC
    
 
@@ -53,12 +54,34 @@ python3 /scripts_for_matt/get_latest_arch/main.py
 ** DEPENDENCIES
         awk
         sed
+
+        Check to if you have these installed... you probably do.
+        #+BEGIN_SRC bash
+        which awk
+        which sed
+        #+END_SRC
+
+
+        if nothing was returned on the las command you need to install them, use your package manager
+        #+BEGIN_SRC bash
+        sudo apt install awk sed -y
+        #+END_SRC
+
+        Give scripts permission to run...
+        #+BEGIN_SRC bash
+        chmod +x $HOME/scripts_for_matt/bash_scripts/awk.sh
+        chmod +x $HOME/scripts_for_matt/bash_scripts/sed.sh
+        #+END_SRC
+
+        Run scripts..
+        #+BEGIN_SRC bash
+        cd $HOME
+        ./scripts_for_matt/bash_scripts/awk.sh
+        ./scripts_for_matt/bash_scripts/sed.sh
+        #+END_SRC
+
+        
     
-        You should already have both of these... you can check by entering "which awk" or "which sed"
-        in your bash terminal
-    
-        You may have to give these scripts permission to run "chmod +x <name or script>
-        runt script by using "bash <name of script>" or "./script_name.sh"
     
 
 
