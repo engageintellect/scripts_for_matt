@@ -9,10 +9,15 @@ linux dependencies
     sudo apt install figlet
     #+END_SRC
 
-
 python dependencies
     - selenium (pip install selenium)
+    #+BEGIN_SRC bash
+    pip install selenium
+    #+END_SRC
     - chromedriver (sudo pip install chromedriver)
+    #+BEGIN_SRC bash
+    sudo pip install chromedriver
+    #+END_SRC
 
 ** DOWNLOAD CODE TO YOUR MACHINE
 Open your linux cmd line, navigate to downloads folder (or wherever you like). 
