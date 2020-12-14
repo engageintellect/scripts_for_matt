@@ -14,7 +14,7 @@ python dependencies
     #+BEGIN_SRC bash
     pip install selenium
     #+END_SRC
-    - BeautifulSoup (use sudo)
+    - BeautifulSoup
     #+BEGIN_SRC bash
     pip install bs4
     #+END_SRC
