@@ -34,6 +34,13 @@ Make sure you have 'git' as well as the listed dependencies installed and copy a
 cd $HOME
 git clone https://github.com/jc9361/scripts_for_matt.git
 #+END_SRC
+
+Change directory into downloaded repo.
+#+BEGIN_SRC bash
+cd $scripts_for_matt && ls -l
+#+END_SRC
+
+
     
 ** repo_maker
 This script uses Python and Selenium to open your browser (Chrome) and 
