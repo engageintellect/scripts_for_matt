@@ -27,7 +27,7 @@ sudo apt install git -y
     #+END_SRC
   
 ** DOWNLOAD CODE TO YOUR MACHINE
-Open your Linux cmd line, navigate to home folder.. you are probably already there by default.
+Open your Linux command line and navigate to home folder.. you are probably already there by default.
 Make sure you have 'git' as well as the listed dependencies installed and copy and paste the following command
 
 #+BEGIN_SRC bash
@@ -47,7 +47,7 @@ I use this script every single time I make a new GitHub repo so I don't have to 
 This script uses python and selenium to open yor Chrome and navigate to "https://archlinux.org".
 From there it will download the latest ISO torrent, open the torrent in your bittorrent client,
 "transmission-cli". When the torrent is finished downloading the script will ask you if you would
-like to burn it to a disk and for you to provide the location of that disk, ie; "/dev/sdd". So now,
+like to burn it to a disk and for you to provide the location of that disk, eg; "/dev/sdd". So now,
 anytime I need to re-install my os, I run one command to grab the latest version and burn it to a flash dive
 so that it is ready to install. :)
     
