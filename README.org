@@ -48,7 +48,14 @@ automates the process of logging in, clicking create repo, naming the repo,
 and linking it to a local folder on your system. This process is a pain in the ass to do manually,
 I use this script every single time I make a new GitHub repo so I don't have to leave the terminal.
     
-    
+ *** Run script..
+#+BEGIN_SRC bash
+python3 $HOME/scripts_for_matt/repo_maker/main.py
+#+END_SRC
+   
+   
+
+
 ** get_latest_arch 
 
 This script uses python and selenium to open yor Chrome and navigate to "https://archlinux.org".
