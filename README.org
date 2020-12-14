@@ -69,8 +69,8 @@ python3 $HOME/scripts_for_matt/covid/main.py
 * BASH SCRIPTS
 
 ** DEPENDENCIES
-        awk
-        sed
+        - awk
+        - sed
 
         Check to if you have these installed... you probably do.
         #+BEGIN_SRC bash
