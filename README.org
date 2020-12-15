@@ -99,12 +99,11 @@ These scripts are super simple... I left comments in them to explain exactly wha
 
 Check to if you have these installed... you probably do.
 #+BEGIN_SRC bash
-which awk
-which sed
+which awk sed
 #+END_SRC
 
 
-if nothing was returned on the las command you need to install them, use your package manager
+if nothing was returned on the last command you need to install them, use your package manager
 #+BEGIN_SRC bash
 sudo apt install awk sed -y
 #+END_SRC
